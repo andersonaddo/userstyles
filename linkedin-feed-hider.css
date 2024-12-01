@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         Linkedin Home Feed Hider
+@version      1.0.0
+@namespace    HappyViking
+@description  Pretty self explanatory, haha!
+@author       HappyViking
+@license      MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.linkedin.com/feed/") {
+    #feed-news-module,
+    .scaffold-finite-scroll {
+        display: none !important;
+    }
+}
+    
